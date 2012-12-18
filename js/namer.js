@@ -37,7 +37,7 @@ $(document).ready(function() {
     refresh_names();
 
     //Refresh names on double click.
-    $("#generator-wrap h1").dblclick(function() {
+    $(".refresh").click(function() {
 	refresh_names();
     });
     

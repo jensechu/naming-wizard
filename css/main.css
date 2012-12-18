@@ -9,6 +9,10 @@ body {
 } 
 
 /*Navigation Bar */
+#nav-bar {
+    height: 100px;
+}
+
 #nav-bar li {
     display: inline;
 

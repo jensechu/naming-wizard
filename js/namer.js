@@ -1,6 +1,6 @@
 // namer.js, for those times when you're like 'Shit I need a character name.'
 
-function name_randomizer(nameType) {
+function name_randomizer(element, nameType) {
     
     // Grabs the names from the JSON file and assigns them to a variable.
     // Passes back a random name from the unpacked list.
@@ -12,6 +12,7 @@ function name_randomizer(nameType) {
 	var randomName = allNames[nameType][Math.floor(Math.random() * allNames[nameType].length)];
 
 	console.log(randomName);
+	$(element).text(randomName);
 	
     });
 };
@@ -22,7 +23,7 @@ $(document).ready(function() {
     // Run the randomizer with the name type.
     $("#generator-wrap h1").click(function() {
 	var nameType = $(this).attr("class");
-	name_randomizer(nameType);
+	name_randomizer(this, nameType);
     });
 
     //Click each name to run the name_randomizer() on 'em.

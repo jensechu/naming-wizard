@@ -1,1 +1,47 @@
 /* Main CSS */
+body {
+    background-color: #FEF1E0; /* Palette: http://www.colourlovers.com/palette/71772/Calligraphy */
+}
+
+@font-face {
+    font-family: LeagueScript;
+    src: url('../media/fonts/LeagueScriptNumberOne.ttf');
+} 
+
+/*Navigation Bar */
+#nav-bar li {
+    display: inline;
+
+}
+
+#nav-bar a.home {
+    font-family: LeagueScript;
+    font-size: 14px;
+    color:  #FEF1E0;
+    text-decoration: none;
+    position: relative;
+    bottom: 12px;
+    left: 27px;
+}
+
+#nav-bar a.home img {
+    position: relative;
+    float: left;
+    z-index: -1;
+}
+
+/* Generator */
+#generator-wrap {
+    max-width: 500px;
+    margin-left: auto; margin-right: auto;
+    margin-top: 100px;
+}
+
+#generator-wrap h1 {
+    color: #3F0632; 
+    font-size: 75px;
+    margin: 0px; 
+    padding: 0px 15px 0px 0px;
+    position: relative;
+    float: left;
+}

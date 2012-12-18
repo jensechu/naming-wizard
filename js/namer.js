@@ -8,7 +8,7 @@ function name_randomizer(){
 	var allPrefixes = data.prefixes;
 	console.log(allPrefixes);
 
-	var allSuffixes = date.suffixes;
+	var allSuffixes = data.suffixes;
 	console.log(allSuffixes);
     });
 };

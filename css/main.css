@@ -24,12 +24,6 @@ body {
     left: 27px;
 }
 
-#nav-bar a.home img {
-    position: relative;
-    float: left;
-    z-index: -1;
-}
-
 /* Generator */
 #generator-wrap {
     max-width: 500px;
